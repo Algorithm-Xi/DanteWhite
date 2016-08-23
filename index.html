@@ -1,5 +1,31 @@
+<?php
+if(empty($_POST) false {
+$errors = array();
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['messge];
+
+if (empty($name) === true || empty($email) === true || empty($message) === true) {
+$errors[] = 'Name, email and message are required!';
+} else {
+}
+
+print_r();
+
+
+}
+
+?>
+
+
+
+
+
+
 <html>
 <head>
+
 
 <meta charset="utf-8" xmlns:padding="http://www.w3.org/1999/xhtml" xmlns:padding="http://www.w3.org/1999/xhtml">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +36,8 @@
 <link href="http://localhost:63342/website/css/bootstrap-theme.min.css">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.css.map" rel="stylesheet">
 <link href="css/edits.css" rel="stylesheet">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -35,9 +63,11 @@ sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crosso
                 <nav class="navbar">
                     <div class="container-fluid">
                         <div class="navbar-header">
+                            <a class="navbar-brand" href
                             <a class="navbar-brand" href="https://www.behance.net/idantewhit0012" style="font-size: 100%; color:black;
                              font-weight: 100; font-family: 'Helvetica Neue'; margin-left: 323px" >PORTFOLIO</a>
-                            <a class="navbar-brand" href="#" style="font-size: 100%; font-weight: 100;
+                            <a class="navbar-brand" href="https://www.google.com/maps/place/WeWork+Buckhead/@33.8471891,-84.374215,
+                            17z/data=!3m1!4b1!4m5!3m4!1s0x88f50f5f7f710bcd:0x8ecda78784e233da!8m2!3d33.8471891!4d-84.3720263" style="font-size: 100%; font-weight: 100;
                              font-family: 'Helvetica Neue'; color: black;">LOCATION ATLANTA, GA</a>
                         </div>
                     </div>
@@ -47,46 +77,50 @@ sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crosso
     </div>
 </div>
 <div  id="desk_image" >
-    <img   class="img-responsive" src="images/desk.png" width="641" height="390"
-          align="right" alt="desk image"/>
+    <img   class="img-responsive" src="images/desk.png" id="deskimg">
+    <h1 id="softdev">FULL STACK SOFTWEAR ENGINEER + UX/UI DESIGNER </h1>
+
 </div>
-<div class="nameplate-image ">
-    <p style="font-weight: 100; font-size: 100%; font-family:'Helvetica Neue';
-     margin-top: 17px; margin-bottom: 1px;
-    margin-left: 1px;">D A N T E</p>
-    <img class="img-responsive" src="images/name.png" align="left" >
-    <p style="font-weight: 100;font-size: 100%; font-family:'Helvetica Neue';margin-top: 10px;
-    margin-left: 60px; padding: 0px">W H I T E</p>
-    <a style="word-spacing: 53px;  text-indent: 770px;" href="https://github.com/Algorithm-Xi">
-        <img src="images/gitimage.png" alt="togithub.com" width="40" height="40">
+<div id="name_image" >
+    <h1 id=tst1 >D A N T E</h1>
+    <img class="img-responsive" src="images/name.png">
+    <h1 id="tst2">W H I T E</h1>
+
+    <a id="tst3" href="https://github.com/Algorithm-Xi">
+        <img src="images/gitimage.png" alt="togithub.com" id="icon1">
     </a>
-    <a style="word-spacing: 53px;" href="https://twitter.com/AlgorithmXI9">
-        <img src="images/twitter.png" width="40" height="40">
+    <a id="tst4" href="https://twitter.com/AlgorithmXI9">
+        <img src="images/twitter.png" id="icon2">
     </a>
-    <a style="word-spacing: 37px;" href="https://www.linkedin.com/in/dante-white-91285328" alt="tolinkedin.com">
-        <img src="images/linkedin.png" width="40" height="40">
+    <a id="tst5" href="https://www.linkedin.com/in/dante-white-91285328" alt="tolinkedin.com">
+        <img src="images/linkedin.png" id="icon3">
     </a>
-    <div class="container">
+</div>
+
+
+<div class="container">
         <div class="row">
             <div class="col-md-3">
                 <div class="form">
-                    <form action="contact_send_mail.php">
-                        <input type="text" required="" placeholder="Please input your Name" value="" name="name" class="txt">
-                        <input type="text" required="" placeholder="Please input your Email" value="" name="email" class="txt">
-                        <textarea placeholder="Your Message" name="mess" type="text" class="txt_3"></textarea>
-                        <input type="submit" value="submit" name="submit" class="txt2">
+                    <form  action="contact_send_mail.php">
+                        <input type="text" required="" placeholder="NAME" value="" name="name" class="txt">
+                        <input type="text" required="" placeholder="EMAIL" value="" name="email" class="txt">
+                        <textarea placeholder="MESSAGE" name="mess" type="text" class="txt_3"></textarea>
+                        <input  type="submit" value="submit" name="submit" class="txt2" >
                     </form>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<!--<footer>
-    <a href="https://www.behance.net/idantewhit0012">
-        <p>BACKEND PORTFOLIO</p>
-    </a>
-</footer> -->
+<audio autoplay="true" src="music/DrakeWeston%20.m4a"
+        autoplay>
+</audio>
+
+<footer>
+    <div></div>
+    <p id="copyright">BUILT BY DANTE WHITE</p>
+</footer>
 </body>
 </html>
 
