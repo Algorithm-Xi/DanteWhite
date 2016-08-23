@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae63f185-1223-4eae-8e5e-4710cd36a5e8" name="Default" comment="git add xml files&#10;">
+    <list default="true" id="ae63f185-1223-4eae-8e5e-4710cd36a5e8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/edits.css" afterPath="$PROJECT_DIR$/css/edits.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,8 +52,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
+            <state relative-caret-position="225">
+              <caret line="66" column="92" selection-start-line="66" selection-start-column="92" selection-end-line="66" selection-end-column="92" />
               <folding>
                 <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -625,7 +623,7 @@
       <workItem from="1471678319005" duration="1786000" />
       <workItem from="1471680373621" duration="14885000" />
       <workItem from="1471800237089" duration="3651000" />
-      <workItem from="1471828887141" duration="9095000" />
+      <workItem from="1471828887141" duration="9720000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1471690095705</created>
@@ -648,11 +646,25 @@
       <option name="project" value="LOCAL" />
       <updated>1471690178018</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="made major changes not the final commit">
+      <created>1471916253489</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1471916253489</updated>
+    </task>
+    <task id="LOCAL-00005" summary="git add html files &#10;">
+      <created>1471927690686</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1471927690686</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47472000" />
+    <option name="totallyTimeSpent" value="48097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -725,7 +737,9 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="add xml files" />
     <MESSAGE value="git add xml files&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git add xml files&#10;" />
+    <MESSAGE value="made major changes not the final commit" />
+    <MESSAGE value="git add html files &#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git add html files &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -996,8 +1010,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="104" column="34" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
+        <state relative-caret-position="225">
+          <caret line="66" column="92" selection-start-line="66" selection-start-column="92" selection-end-line="66" selection-end-column="92" />
           <folding>
             <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
