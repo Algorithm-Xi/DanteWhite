@@ -1,0 +1,162 @@
+body {
+    background-color: white;
+}
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+#desk_image{
+    margin-top: 150px;
+    bottom: 70px;
+    margin-left: 700px;
+}
+
+#softdev{
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size:100%;
+    margin-top: 17px;
+    margin-bottom: 1px;
+    margin-left: 167px;
+
+
+}
+
+#name_image  {
+    margin-top: -156px;
+    margin-left: 202px;
+    padding-bottom: 35px;
+}
+
+.txt[type="text"] {
+    font-weight: 100;
+    font-family: "Helvetica Neue";
+    border: 1px solid #252525; /* this controls the thickness of the boder form*/
+    margin: 10px 0; /* this controls the amount of spacing between the forms*/
+    padding: 10px 0 10px 5px; /* this controls the padding inside the forms 1px top to bottom */
+    width: 95%; /* this controls the width of the forms */
+}
+.txt_3[type="text"] {
+    font-weight: 100;
+    /* this class is for the message form*/
+    font-family: "Helvetica Neue";
+    margin: 10px 0 0;
+    padding: 10px 0 10px 5px;
+    width: 95%;
+}
+.txt2[type="submit"] {
+    background: #597481 none repeat scroll 0 0; /* when the button is clicked this turns color */
+    border: 1px solid #252525;
+    border-radius: 25px;
+    color: #95989A;
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    line-height: 28px;
+    margin: 27px 70px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 39%;
+    height: 27px;
+    box-shadow: #000000;
+}
+.txt2:hover {
+    font-weight: 100;
+    font-family: "Helvetica Neue";
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #597481; /* this turns the button letter color to green when it is clicked */
+    transition: all 0.5s ease 0s;
+}
+.wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: 1px solid #eee;
+    border-bottom-width: 2px;
+}
+
+#tst1{
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size:100%;
+    margin-top: -362px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+}
+
+#tst2{
+    margin-left: 60px;
+    font-weight: 100;
+    font-size: 100%;
+    font-family: "Helvetica Neue";
+    margin-top: 10px;
+    padding: 0px;
+
+}
+
+#tst3{word-spacing: 53px;
+    text-indent: 770px;"
+}
+
+#tst4{
+    word-spacing: 53px;"
+
+}
+
+#tst5{
+    word-spacing: 37px;"
+}
+
+#icon1{
+    width: 40px;
+    height: 40px;
+}
+
+#icon2{
+    width: 40px;
+    height: 40px;
+
+}
+
+#icon3{
+    width: 40px;
+    height: 40px;
+}
+#deskimg{
+    width: 641px;
+    height: 390px;
+}
+
+.shadow {
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+}
+
+.black-box {
+    background-color: #000000;
+}
+
+footer div {
+    background: black;
+    height: 57px;
+    width: 94%;
+    margin-left: 6%;
+}
+
+#copyright{
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size:100%;
+    margin: 17px 629px 10px;
+
+}
+
+
+
