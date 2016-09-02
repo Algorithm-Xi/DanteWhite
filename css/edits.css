@@ -143,6 +143,12 @@ body {
     background-color: #000000;
 }
 
+#blackbar{
+    background: black;
+    height: 10px;
+    width: 30%;
+}
+
 footer div {
     background: black;
     height: 57px;

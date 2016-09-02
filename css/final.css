@@ -1,0 +1,213 @@
+body {
+    background-color: white;
+}
+
+
+#about_me{
+    font-size: 100%;
+    text-color: black;
+    font-weight: 100;
+    font-family: 'Helvetica Neue';
+
+}
+
+#me_me{
+    font-family: Phosphate;
+    font-size: 100%;
+    text-color: #597481;
+    font-weight: 100;
+
+}
+
+#deskimg{
+    width: 641px;
+    height: 390px;
+}
+
+#portfolio{
+    font-size: 100%;
+    text-color:black;
+    font-weight: 100;
+    font-family: 'Helvetica Neue';
+}
+
+#location_atlanta{
+    font-size: 100%;
+    font-weight: 100;
+    font-family: 'Helvetica Neue';
+    text-color: black;
+}
+
+.navbar-header{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #ffffff;
+
+}
+
+.navbar-default .navbar-brand {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #ffffff;
+
+    color: #ffffff;
+}
+
+#tst1{
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size:100%;
+    text-color: black;
+    margin-top: 17px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+}
+
+#tst2{
+    margin-left: 60px;
+    font-weight: 100;
+    font-size: 100%;
+    font-family: "Helvetica Neue";
+    text-color: black;
+    margin-top: 10px;
+    padding: 0px;
+
+}
+
+#tst3{word-spacing: 53px;
+    text-indent: 770px;"
+}
+
+#tst4{
+    word-spacing: 53px;"
+
+}
+
+#tst5{
+    word-spacing: 37px;"
+}
+
+#icon1{
+    width: 40px;
+    height: 40px;
+}
+
+#icon2{
+    width: 40px;
+    height: 40px;
+
+}
+
+#icon3 {
+    width: 40px;
+    height: 40px;
+}
+
+#nameform{
+    margin-top: 304px;
+    margin-left: -99px;
+
+}
+
+.txt[type="text"] {
+    font-weight: 100;
+    font-family: "Helvetica Neue";
+    border: 1px solid #252525; /* this controls the thickness of the boder form*/
+    margin: 10px 0; /* this controls the amount of spacing between the forms*/
+    padding: 10px 0 10px 5px; /* this controls the padding inside the forms 1px top to bottom */
+    width: 95%; /* this controls the width of the forms */
+}
+.txt_3[type="text"] {
+    border: 1px solid #252525; /* this controls the thickness of the boder form*/
+    font-weight: 100;
+    /* this class is for the message form*/
+    font-family: "Helvetica Neue";
+    margin: 10px 0 0;
+    padding: 10px 0 10px 5px;
+    width: 95%;
+}
+.txt2[type="submit"] {
+    background: #597481 none repeat scroll 0 0; /* when the button is clicked this turns color */
+    border: 1px solid #597481;
+    border-radius: 25px;
+    color: #95989A;
+    font-size: 16px;
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    line-height: 28px;
+    margin: 27px 70px;
+    padding: 0;
+    text-transform: uppercase;
+    width: 39%;
+    height: 27px;
+    box-shadow: #000000;
+
+}
+.txt2:hover {
+    font-weight: 100;
+    font-family: "Helvetica Neue";
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #597481; /* this turns the button letter color to green when it is clicked */
+    transition: all 0.5s ease 0s;
+}
+
+
+#copyright{
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size:100%;
+    padding-top: 12px;
+
+}
+#softdev{
+    font-family: "Helvetica Neue";
+    font-weight: 100;
+    font-size:100%;
+
+
+
+}
+
+.col-xs-11{
+    margin-left: 3px;
+    margin-top: 13px;
+}
+
+.mycontent{
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.mycontenttwo{
+    margin-top: auto;
+    margin-left: auto;
+
+}
+
+#blackbar{
+    background: black;
+    height: 10px;
+    width: 95%;
+}
+#whitebar{
+    height: 250px;
+    width: 110%;
+}
+
+#whitebartwo{
+    height: 33px;
+    width: 110%;
+
+}
+
+footer div {
+    background: black;
+    height: 57px;
+    width: 94%;
+    margin-left: 6%;
+
+}
+
+
+
+
